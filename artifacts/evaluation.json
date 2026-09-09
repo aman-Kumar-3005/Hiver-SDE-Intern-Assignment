@@ -1,0 +1,23 @@
+{
+  "dataset_size": 500,
+  "majority_baseline": {
+    "accuracy": 0.934,
+    "macro_f1": 0.12073422957600827
+  },
+  "keyword_baseline": {
+    "accuracy": 0.934,
+    "macro_f1": 0.12073422957600827
+  },
+  "atlascare": {
+    "accuracy": 0.934,
+    "macro_f1": 0.12073422957600827,
+    "evidence_hit_rate": 1.0,
+    "escalation_precision": 0.97,
+    "escalation_recall": 1.0,
+    "escalation_rate": 1.0
+  },
+  "reply_rubric_proxy": {
+    "grounded": 1.0,
+    "no_account_claims": 1.0
+  }
+}

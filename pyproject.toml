@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "atlascare-support-agent"
+version = "0.1.0"
+description = "Offline, auditable customer-support classification and grounded reply baseline"
+requires-python = ">=3.10"
+
+[project.scripts]
+atlas-agent = "atlas_agent.cli:main"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]

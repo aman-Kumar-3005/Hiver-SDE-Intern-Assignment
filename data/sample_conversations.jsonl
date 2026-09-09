@@ -1,0 +1,14 @@
+{"text":"why was I charged twice for my monthly plan","intent":"billing_payment","response":"We can check the duplicate charge securely.","risky":false}
+{"text":"my bill is higher than expected","intent":"billing_payment","response":"We can review the bill and explain the charge.","risky":false}
+{"text":"I need to change my plan to more data","intent":"plan_change","response":"We can help compare available plans.","risky":false}
+{"text":"can I add a data bolt on","intent":"plan_change","response":"We can help add the right data option.","risky":false}
+{"text":"my new sim will not activate","intent":"sim_activation","response":"We can check the activation steps.","risky":false}
+{"text":"how do I activate an esim","intent":"sim_activation","response":"We can guide the eSIM activation.","risky":false}
+{"text":"there is no signal anywhere today","intent":"service_outage","response":"We need to check network status and your area.","risky":true}
+{"text":"my mobile data stopped working","intent":"service_outage","response":"We need to check the service and network.","risky":true}
+{"text":"I cannot log into my account","intent":"account_access","response":"We need to verify access securely.","risky":true}
+{"text":"please help me pass account verification","intent":"account_access","response":"We can help with secure verification.","risky":true}
+{"text":"I want to cancel my contract","intent":"cancellation","response":"A specialist can explain cancellation options.","risky":true}
+{"text":"how do I leave the network","intent":"cancellation","response":"A specialist can help with leaving options.","risky":true}
+{"text":"where is my replacement sim","intent":"delivery_tracking","response":"We can check the delivery status.","risky":false}
+{"text":"track the phone I ordered","intent":"delivery_tracking","response":"We can check the order tracking.","risky":false}
