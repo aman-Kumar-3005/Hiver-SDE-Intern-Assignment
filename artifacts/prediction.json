@@ -1,0 +1,11 @@
+{
+  "input": "My iPhone cannot connect to Wi-Fi",
+  "data": "data/brand_conversations.jsonl",
+  "intent": "unknown",
+  "confidence": 0.982,
+  "action": "escalate",
+  "reason": "High-impact issue or out-of-scope message; a human should verify account and customer context.",
+  "reply": "Thanks for getting in touch. Please send us a private message with the relevant details so a support specialist can check this securely.",
+  "evidence": "@AppleSupport Connect to*",
+  "evidence_score": 0.25
+}

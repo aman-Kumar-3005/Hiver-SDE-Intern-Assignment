@@ -21,7 +21,7 @@ py -m atlas_agent.cli --message "My iPhone cannot connect to Wi-Fi"
 py -m atlas_agent.evaluate
 ```
 
-Expected evaluation runs in seconds and writes `artifacts/evaluation.json`. The agent consumes JSONL examples containing `text`, `intent`, `response`, and `risky` fields.
+Expected evaluation runs in seconds and writes [`artifacts/evaluation.json`](artifacts/evaluation.json). A sample CLI prediction is saved in [`artifacts/prediction.json`](artifacts/prediction.json). The agent consumes JSONL examples containing `text`, `intent`, `response`, and `risky` fields.
 
 ## Example
 
